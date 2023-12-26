@@ -16,3 +16,7 @@ res = test_string.split()
 print("\nThe words of string are")
 for i in res:
     print(i[::-1])
+
+
+for x in res:
+      print(x)
