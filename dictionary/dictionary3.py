@@ -38,3 +38,8 @@ print(Dict)
 Dict[5] = {'Nested': {'1': 'Life', '2': 'Geeks'}}
 print("\nAdding a Nested Key: ")
 print(Dict)
+
+print("+++++++++++++++++++++")
+
+for x in Dict:
+    print(Dict[x])
