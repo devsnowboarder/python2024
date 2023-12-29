@@ -34,7 +34,6 @@ sunset = data["results"]["sunset"]
 print(sunrise)
 print(sunset.split("1")[1].split(":")[0])
 
-
 time_now = datetime.now()
 
 print(time_now)
