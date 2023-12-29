@@ -42,6 +42,8 @@ travel_log = {
   "Germany": ["Berlin", "Hamburg", "Stuttgart"],
 }
 
+print(travel_log["France"])
+
 #Nesting Dictionary in a Dictionary
 
 travel_log = {
@@ -49,6 +51,8 @@ travel_log = {
   "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visits": 5},
 }
 
+print(travel_log["France"]["cities_visited"])
+print(travel_log["France"]["total_visits"])
 #Nesting Dictionaries in Lists
 
 travel_log = [
@@ -63,3 +67,13 @@ travel_log = [
   "total_visits": 5,
 },
 ]
+
+
+for x in travel_log:
+# print(travel_log["country"][x])
+  # print(travel_log[x]["cities_visited"])
+  # print(travel_log[x]["total_visits"])
+
+
+
+print(capitals["France"])
