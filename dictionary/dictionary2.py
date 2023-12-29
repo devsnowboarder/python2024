@@ -23,7 +23,8 @@ Dict = {1: 'Geeks', 2: 'For',
 
 print(Dict)
 
-print(Dict[1])
+for x in Dict:
+      print(Dict[x])
 print(Dict[2])
 print(Dict[3])
 
