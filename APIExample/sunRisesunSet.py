@@ -15,6 +15,7 @@ parameters = {
 
 reponse = requests.get("https://api.sunrise-sunset.org/json", params=parameters)
 print(reponse.status_code)
+print(reponse.raise_for_status())
 data = reponse.json()
 print(data)
 print(data["results"])
