@@ -32,7 +32,7 @@ sunrise = data["results"]["sunrise"]
 sunset = data["results"]["sunset"]
 
 print(sunrise)
-print(sunset.split("1")[1].split(":")[0])
+#print(sunset.split("1")[1].split(":")[0])
 
 time_now = datetime.now()
 
