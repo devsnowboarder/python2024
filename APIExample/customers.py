@@ -26,3 +26,5 @@ print(data)
 print(data['data'])
 print(data['data']['customer'])
 
+
+
