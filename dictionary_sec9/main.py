@@ -69,11 +69,9 @@ travel_log = [
 ]
 
 
-for x in travel_log:
-# print(travel_log["country"][x])
-  # print(travel_log[x]["cities_visited"])
-  # print(travel_log[x]["total_visits"])
+for x in range(0,2):
+  print(travel_log[x]["country"])
+  print(travel_log[x]["total_visits"])
 
 
 
-print(capitals["France"])

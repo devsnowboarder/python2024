@@ -1,0 +1,10 @@
+This is a test
+Hello world
+My name is James
+Item:  b  Frequency:  2
+Item:  a  Frequency:  3
+Item:  r  Frequency:  2
+The Counter class implements useful methods such as
+update() and most_common([n]). The update()
+method takes an iterable object and adds it to the existing counter o
+bject. Let's try it:
