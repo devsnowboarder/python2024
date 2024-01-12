@@ -6,6 +6,8 @@ from datetime import datetime
 MY_LAT = 51.507351
 MY_LONG = -0.127758
 
+url ="https://api.sunrise-sunset.org/json"
+
 
 
 parameters = {
@@ -15,7 +17,7 @@ parameters = {
 
 
 
-response = requests.get("https://api.sunrise-sunset.org/json",params=parameters)
+response = requests.get(url,params=parameters)
 
 
 
