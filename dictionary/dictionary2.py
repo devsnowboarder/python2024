@@ -50,5 +50,9 @@ Dict = {1: 'Geeks', 'name': 'For', 3: 'San Francisco'}
 print("Accessing a element using get:")
 print(Dict.get(3))
 
-for i in Dict:
-    print(Dict.get(i))
+for i in Dict.keys():
+    print(" key ",i)
+
+
+for i in Dict.values():
+    print(" VALUE ",i)

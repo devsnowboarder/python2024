@@ -18,5 +18,12 @@ print(per.keys())
 
 print('\nKey after update \n')
 per.update({'body' : 170})
+
 print(per.keys())
 
+for x in per.keys():
+        print(" keys ",x)
+
+
+for x in per.values():
+        print(" Value  = ",x)
