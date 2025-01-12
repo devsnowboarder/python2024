@@ -16,3 +16,13 @@ df_new = df.drop_duplicates()
 print("===============  droping duplicates")
 
 print(df_new.to_string())
+
+
+#df["order_date"] = pd.to_datetime(df["order_date"], format = '%d%m%y')
+
+
+avg_sale  = new_df.groupby('ItemType')['UnitsSold'].mean()
+
+print(avg_sale)
+
+print(new_df.aggregate(['sum','min','max']))
