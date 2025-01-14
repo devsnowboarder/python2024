@@ -15,3 +15,5 @@ df.plot(x = 'Date', y = 'Price', kind = 'line')
 plt.xlabel('Data')
 plt.ylabel('Price')
 plt.show()
+
+
