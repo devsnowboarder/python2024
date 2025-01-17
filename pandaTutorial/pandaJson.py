@@ -3,7 +3,7 @@ import pandas as pd
 import json
 
 
-df = open('data.json')
+df = open('bar.vl.json')
 df = jason.load()
 
 print(df)
