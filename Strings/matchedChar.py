@@ -10,6 +10,9 @@ def count(str1, str2):
     # are stored in matched_characters set variable
     matched_characters = set_string1 & set_string2
 
+
+
+
     # printing the length of matched_characters set
     # gives the no. of matched characters
     print(matched_characters)
